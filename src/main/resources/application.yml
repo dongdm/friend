@@ -1,0 +1,17 @@
+# Allow Thymeleaf templates to be reloaded at dev time
+spring:
+  profiles: 
+    active: generic 
+  thymeleaf: 
+    cache: false
+  data: 
+    mongodb:
+      port: 0 
+
+hello:  Bonjour 
+
+server: 
+  tomcat: 
+    access_log_enabled: true 
+    basedir: target/tomcat
+
