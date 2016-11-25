@@ -1,0 +1,2 @@
+# friend
+just for friend
